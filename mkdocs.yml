@@ -20,3 +20,10 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+
+nav:
+  # - Index: index.md
+  - Server Info: server-info.md
+  - Rules: rules.md
+  - Housing: housing.md
+  - FAQ: faq.md
