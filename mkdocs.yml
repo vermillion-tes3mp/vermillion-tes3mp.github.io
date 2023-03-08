@@ -1,0 +1,22 @@
+site_name: Vermillion Wiki
+
+theme: 
+  name: material
+  palette: 
+    - scheme: slate
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+      toc_depth: 3
